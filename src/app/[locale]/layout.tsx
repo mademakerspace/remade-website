@@ -36,7 +36,7 @@ const Layout = async ({
 
       <body>
         <IntlContextProvider dictionary={dictionary}>
-          <div className="fixed inset-0">
+          <div className="fixed inset-0 pointer-events-none">
             <Image
               src={require("@/assets/layout/bg-top-left.svg")}
               alt=""
