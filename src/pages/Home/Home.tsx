@@ -21,9 +21,7 @@ const HomePage: FunctionComponent = () => {
         icon={IconBuildingWarehouse}
         title={dict.home?.space?.title}
       >
-        <Markdown className="text-center mb-6">
-          {dict.home?.space?.content}
-        </Markdown>
+        <Markdown className="mb-6">{dict.home?.space?.content}</Markdown>
 
         <ImageGallery
           images={[
@@ -46,9 +44,7 @@ const HomePage: FunctionComponent = () => {
       </ContentSection>
 
       <ContentSection icon={IconHammer} title={dict.home?.getInvolved?.title}>
-        <Markdown className="text-center mb-6">
-          {dict.home?.getInvolved?.content}
-        </Markdown>
+        <Markdown className="mb-6">{dict.home?.getInvolved?.content}</Markdown>
 
         <div className="flex justify-center">
           <Button

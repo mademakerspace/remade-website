@@ -4,7 +4,6 @@ import { MainNav } from "@/layout/MainNav/MainNav";
 import { PageContext } from "@/types/next";
 import { PropsWithChildren } from "react";
 import Image from "next/image";
-import logo from "@/assets/logo.svg";
 
 const Layout = async ({
   children,
@@ -51,8 +50,19 @@ const Layout = async ({
           </div>
 
           <div className="max-w-[900px] mx-auto px-6 relative">
-            <div className="flex justify-center my-10">
-              <Image src={logo} alt="ReMade logo" width={160} />
+            <div className="flex justify-center my-10 max-md:mb-6 max-md:mt-7">
+              <Image
+                src={require("@/assets/logo.svg")}
+                alt="ReMade logo"
+                width={160}
+                className="max-md:hidden"
+              />
+              <Image
+                src={require("@/assets/logo-inline.svg")}
+                alt="ReMade logo"
+                width={280}
+                className="md:hidden"
+              />
             </div>
 
             <MainNav />
