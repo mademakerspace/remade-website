@@ -2,6 +2,8 @@
 
 Static-building, internationalised website for ReMade BCN Maker Space
 
+![./resources/screenshot.jpg](Screenshot)
+
 ## Setup
 
 ```bash
