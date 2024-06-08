@@ -6,11 +6,12 @@ export const ContentSection: FunctionComponent<
 > = ({ icon: Icon, title, children }) => (
   <div className="my-6">
     {!!title && (
-      <h1 className="flex flex-col gap-2 items-center text-secondary text-2xl mb-6">
+      <h1 className="flex flex-col gap-2 items-center text-secondary text-2xl mb-3">
         {!!Icon && <Icon size={40} stroke={0.7} />}
         {title}
       </h1>
     )}
+
     {children}
   </div>
 );
