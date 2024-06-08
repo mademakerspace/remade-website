@@ -2,7 +2,11 @@
   "home": {
     "space": {
       "title": "The space",
-      "content": "Lorem _ipsum dolor_ sit amet, consectetur adipiscing elit. Vivamus nec hendrerit felis.\n\n\nAliquam quis tincidunt tortor, eu porttitor turpis.\nDonec vulputate feugiat arcu sit amet faucibus.\n\nQuisque consequat semper euismod. Fusce imperdiet erat eget metus pulvinar, non dignissim ipsum fringilla. Etiam sed eros ullamcorper, condimentum tellus ac, ullamcorper odio"
+      "content": "Lorem _ipsum dolor_ sit amet, consectetur adipiscing elit. Vivamus nec hendrerit felis.\n\n\nAliquam quis tincidunt tortor, eu porttitor turpis.\nDonec vulputate feugiat arcu sit amet faucibus.\n\nQuisque consequat semper euismod. Fusce imperdiet erat eget metus pulvinar, non dignissim ipsum fringilla. Etiam sed eros ullamcorper, condimentum tellus ac, ullamcorper odio",
+      "images": {
+        "woodWorkshop": "Wood workshop",
+        "electronicsWorkshop": "Electronics workshop"
+      }
     }
   }
 }

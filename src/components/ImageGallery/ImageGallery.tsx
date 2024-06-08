@@ -2,16 +2,16 @@ import clsx from "clsx";
 import Image, { StaticImageData } from "next/image";
 import { FunctionComponent, useEffect, useRef, useState } from "react";
 
-export const ImageGallery: FunctionComponent<{ images: StaticImageData[] }> = ({
-  images,
-}) => {
+export const ImageGallery: FunctionComponent<{
+  images: { image: StaticImageData; description?: string }[];
+}> = ({ images }) => {
   const [current, setCurrent] = useState(0);
   const shownImage = images[current % images.length];
-  const imageRef = useRef<HTMLImageElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
   const [height, setHeight] = useState<number | null>(null);
 
   useEffect(() => {
-    const el = imageRef.current;
+    const el = containerRef.current;
 
     if (!el) return;
 
@@ -26,18 +26,25 @@ export const ImageGallery: FunctionComponent<{ images: StaticImageData[] }> = ({
     <div className="-mx-10 max-md:!-mx-6 max-lg:mx-3 relative">
       <div style={{ height: `${height}px` }} className="transition-[height]">
         <div className="h-[999px]">
-          <Image
-            ref={imageRef}
-            src={shownImage}
-            alt={`Photo ${current}`}
-            className="max-h-full max-w-full w-auto max-h-[700px] md:rounded-xl mx-auto"
-          />
+          <div ref={containerRef} className="flex flex-col gap-6 items-center">
+            <Image
+              src={shownImage.image}
+              alt={`Photo ${current}`}
+              className="max-h-full max-w-full w-auto max-h-[700px] md:rounded-xl mx-auto"
+            />
+
+            {!!shownImage.description && (
+              <p className="bg-spacegray/50 px-6 py-3 w-1/2 text-center rounded-lg">
+                {shownImage.description}
+              </p>
+            )}
+          </div>
         </div>
       </div>
 
       {images.length > 1 && (
         <div className="flex gap-6 mt-6 mx-6">
-          {images.map((image, index) => (
+          {images.map(({ image }, index) => (
             <button
               key={index}
               onClick={() => setCurrent(index)}
