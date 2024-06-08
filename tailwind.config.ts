@@ -5,7 +5,7 @@ const palette = {
   deep: { DEFAULT: "#14161d", dark: "#0e1015" },
   brand: { DEFAULT: "#e5735f" },
   contrast: { DEFAULT: "#365bff", dark: "#4d6cf6", light: "#7e96ff" },
-  secondary: { DEFAULT: "#12141a" },
+  secondary: { DEFAULT: "#9fa6c5" },
   spacegray: { DEFAULT: "#22242b" },
 };
 

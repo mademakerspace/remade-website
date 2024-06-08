@@ -7,16 +7,16 @@ export const NavLink: FunctionComponent<
 > = ({ href, external = false, children, icon: Icon }) => (
   <Link
     href={href}
-    className="flex items-center gap-2 text-body hover:text-contrast-light transition-colors py-5"
+    className="flex items-center gap-2 text-body hover:text-contrast-light transition-colors py-3"
     {...(external ? { rel: "noopener noreferrer", target: "_blank" } : {})}
   >
     {!!Icon && (
       <Icon
         size={16}
         stroke={1.5}
-        className="lg:opacity-60 max-lg:w-6 max-lg:h-6 max-lg:stroke-[0.8px]"
+        className="sm:opacity-60 max-sm:w-6 max-sm:h-6 max-md:stroke-[1px]"
       />
     )}
-    <span className="max-lg:hidden">{children}</span>
+    <span className="max-sm:hidden">{children}</span>
   </Link>
 );

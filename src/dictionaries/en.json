@@ -1,1 +1,8 @@
-{}
+{
+  "home": {
+    "space": {
+      "title": "The space",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec hendrerit felis. Aliquam quis tincidunt tortor, eu porttitor turpis. Donec vulputate feugiat arcu sit amet faucibus. Quisque consequat semper euismod. Fusce imperdiet erat eget metus pulvinar, non dignissim ipsum fringilla. Etiam sed eros ullamcorper, condimentum tellus ac, ullamcorper odio"
+    }
+  }
+}
