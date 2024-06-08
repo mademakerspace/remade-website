@@ -25,6 +25,7 @@ const HomePage: FunctionComponent = () => {
           require("./assets/space-01@2x.jpg"),
           require("./assets/space-02@2x.jpg"),
           require("./assets/space-03@2x.jpg"),
+          require("./assets/space-04@2x.jpg"),
         ]}
       />
     </ContentSection>

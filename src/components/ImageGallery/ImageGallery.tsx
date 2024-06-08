@@ -30,7 +30,7 @@ export const ImageGallery: FunctionComponent<{ images: StaticImageData[] }> = ({
             ref={imageRef}
             src={shownImage}
             alt={`Photo ${current}`}
-            className="max-h-full max-w-full w-auto md:rounded-xl"
+            className="max-h-full max-w-full w-auto max-h-[700px] md:rounded-xl mx-auto"
           />
         </div>
       </div>
