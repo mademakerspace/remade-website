@@ -1,10 +1,11 @@
 import type { Config } from "tailwindcss";
 
 const palette = {
+  transparent: { DEFAULT: "transparent" },
   white: { DEFAULT: "#ffffff" },
   deep: { DEFAULT: "#14161d", dark: "#0e1015" },
   brand: { DEFAULT: "#e5735f" },
-  contrast: { DEFAULT: "#365bff", dark: "#4d6cf6", light: "#7e96ff" },
+  contrast: { DEFAULT: "#365bff", dark: "#4d6cf6", light: "#4e6ef7" },
   secondary: { DEFAULT: "#9fa6c5" },
   spacegray: { DEFAULT: "#22242b" },
 };

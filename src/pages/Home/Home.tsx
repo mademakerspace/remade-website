@@ -10,6 +10,7 @@ import {
 import { Markdown } from "@/components/Markdown/Markdown";
 import { ContentSection } from "@/components/ContentSection/ContentSection";
 import { ImageGallery } from "@/components/ImageGallery/ImageGallery";
+import { Button } from "@/components/Button/Button";
 
 const HomePage: FunctionComponent = () => {
   const dict = useDictionary();
@@ -50,14 +51,13 @@ const HomePage: FunctionComponent = () => {
         </Markdown>
 
         <div className="flex justify-center">
-          <a
+          <Button
             href="https://t.me/+ZfAwT8CPnr8wMmE0"
-            className="flex gap-3 items-center px-6 py-3 rounded-full bg-contrast focus:outline-0"
-            rel="noopener nofererrer"
+            external
+            iconLeft={IconBrandTelegram}
           >
-            <IconBrandTelegram size={20} stroke={1} />
             Telegram
-          </a>
+          </Button>
         </div>
       </ContentSection>
     </>

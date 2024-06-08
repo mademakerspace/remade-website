@@ -24,7 +24,10 @@ export const ImageGallery: FunctionComponent<{
 
   return (
     <div className="-mx-10 max-md:!-mx-6 max-lg:mx-3 relative">
-      <div style={{ height: `${height}px` }} className="transition-[height]">
+      <div
+        style={{ height: `${height}px` }}
+        className="transition-[height] overflow-hidden"
+      >
         <div className="h-[999px]">
           <div ref={containerRef} className="flex flex-col gap-6 items-center">
             <Image
