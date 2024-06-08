@@ -7,6 +7,10 @@
         "woodWorkshop": "Wood workshop",
         "electronicsWorkshop": "Electronics workshop"
       }
+    },
+    "getInvolved": {
+      "title": "Get involved",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam leo, viverra eu turpis eget, efficitur imperdiet elit. In faucibus erat non maximus luctus. Maecenas ornare orci quis aliquet laoreet"
     }
   }
 }
