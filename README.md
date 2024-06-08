@@ -2,7 +2,7 @@
 
 Static-building, internationalised website for ReMade BCN Maker Space
 
-![./resources/screenshot.jpg](Screenshot)
+![Screenshot](./resources/screenshot.jpg)
 
 ## Setup
 
