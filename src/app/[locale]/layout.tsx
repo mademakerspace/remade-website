@@ -36,7 +36,21 @@ const Layout = async ({
 
       <body>
         <IntlContextProvider dictionary={dictionary}>
-          <div className="max-w-[900px] mx-auto px-6">
+          <div className="fixed inset-0">
+            <Image
+              src={require("@/assets/layout/bg-top-left.svg")}
+              alt=""
+              className="absolute top-0 left-0 max-lg:w-[150px]"
+            />
+
+            <Image
+              src={require("@/assets/layout/bg-top-right.svg")}
+              alt=""
+              className="absolute top-0 right-0 max-lg:w-[150px]"
+            />
+          </div>
+
+          <div className="max-w-[900px] mx-auto px-6 relative">
             <div className="flex justify-center my-10">
               <Image src={logo} alt="ReMade logo" width={160} />
             </div>
