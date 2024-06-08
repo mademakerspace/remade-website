@@ -33,7 +33,8 @@ export const ImageGallery: FunctionComponent<{
             <Image
               src={shownImage.image}
               alt={`Photo ${current}`}
-              className="max-h-full max-w-full w-auto max-h-[720px] md:rounded-xl mx-auto"
+              className="max-h-full max-w-full w-auto md:rounded-xl mx-auto"
+              style={{ maxHeight: "700px" }}
             />
 
             {!!shownImage.description && (
