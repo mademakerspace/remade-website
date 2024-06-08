@@ -46,7 +46,7 @@ export const ImageGallery: FunctionComponent<{
       </div>
 
       {images.length > 1 && (
-        <div className="flex gap-6 mt-6 mx-6">
+        <div className="flex gap-6 mt-6 mx-6 max-lg:gap-1 max-lg:mx-3">
           {images.map(({ image }, index) => (
             <button
               key={index}
