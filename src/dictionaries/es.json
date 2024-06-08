@@ -1,5 +1,16 @@
 {
   "home": {
-    "space": { "title": "", "content": "" }
+    "space": {
+      "title": "El espacio",
+      "content": "TODO",
+      "images": {
+        "woodWorkshop": "Taller de madera",
+        "electronicsWorkshop": "Taller de electronica"
+      }
+    },
+    "getInvolved": {
+      "title": "Involucrarse",
+      "content": "TODO"
+    }
   }
 }

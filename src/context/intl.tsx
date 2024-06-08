@@ -15,7 +15,7 @@ export const IntlContext = createContext<IntlContextValue>(
 );
 
 export const IntlContextProvider: FunctionComponent<
-  PropsWithChildren<{ dictionary: Dictionary }>
-> = ({ dictionary, children }) => (
+  PropsWithChildren<{ dictionary?: Dictionary }>
+> = ({ dictionary = {}, children }) => (
   <IntlContext.Provider value={{ dictionary }}>{children}</IntlContext.Provider>
 );
