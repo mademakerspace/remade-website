@@ -19,7 +19,14 @@ const HomePage: FunctionComponent = () => {
         {dict.home?.space?.content}
       </Markdown>
 
-      <ImageGallery images={[require("./assets/nave@2x.jpg")]} />
+      <ImageGallery
+        images={[
+          require("./assets/nave@2x.jpg"),
+          require("./assets/space-01@2x.jpg"),
+          require("./assets/space-02@2x.jpg"),
+          require("./assets/space-03@2x.jpg"),
+        ]}
+      />
     </ContentSection>
   );
 };

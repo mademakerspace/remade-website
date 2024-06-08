@@ -19,7 +19,7 @@ const config: Config = {
       DEFAULT: palette.white.DEFAULT,
       base: palette.white,
     },
-    borderColor: { DEFAULT: palette.spacegray.DEFAULT },
+    borderColor: { ...palette, DEFAULT: palette.spacegray.DEFAULT },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
