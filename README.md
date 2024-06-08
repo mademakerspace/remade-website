@@ -2,7 +2,7 @@
 
 Static-building, internationalised website for ReMade BCN Maker Space
 
-![Screenshot](./resources/screenshot@2x.jpg)
+<img src="./resources/cover.png" width="345" height="239" alt="Cover image" />
 
 ## Setup
 
