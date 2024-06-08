@@ -4,7 +4,7 @@ import { FunctionComponent } from "react";
 export const ImageGallery: FunctionComponent<{ images: StaticImageData[] }> = ({
   images,
 }) => (
-  <div className="-mx-10">
+  <div className="-mx-10 max-sm:!mx-0 hidden">
     {images.map((image, index) => (
       <Image
         key={index}
