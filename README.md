@@ -30,4 +30,8 @@ Run the static build:
 npm run build
 ```
 
-The static build should now be available at `./out`
+The static build should now be available at `./out`. It can be previewed by running:
+
+```bash
+npm run server
+```
