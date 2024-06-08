@@ -2,11 +2,12 @@
 
 import { FunctionComponent, PropsWithChildren, createContext } from "react";
 import type DictJSON from "@/dictionaries/en.json";
+import { DeepPartial } from "@/types/utils";
 
 type Dictionary = typeof DictJSON;
 
 interface IntlContextValue {
-  dictionary: Dictionary;
+  dictionary: DeepPartial<Dictionary>;
 }
 
 export const IntlContext = createContext<IntlContextValue>(

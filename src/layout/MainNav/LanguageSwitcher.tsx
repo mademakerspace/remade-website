@@ -16,7 +16,7 @@ const LANGUAGE_NAMES: Record<Locale, string> = { en: "English", es: "Español" }
 
 export const LanguageSwitcher: FunctionComponent = () => {
   const locale = useLocale();
-  const pathname = usePathname().split("/").slice(2).join("/");
+  const pathname = (usePathname() || "").split("/").slice(2).join("/");
 
   return (
     <>

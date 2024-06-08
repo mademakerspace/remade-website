@@ -7,16 +7,21 @@ import { Markdown } from "@/components/Markdown/Markdown";
 import { ContentSection } from "@/components/ContentSection/ContentSection";
 import { ImageGallery } from "@/components/ImageGallery/ImageGallery";
 
-export const HomePage: FunctionComponent = () => {
+const HomePage: FunctionComponent = () => {
   const dict = useDictionary();
 
   return (
-    <ContentSection icon={IconBuildingWarehouse} title={dict.home.space.title}>
+    <ContentSection
+      icon={IconBuildingWarehouse}
+      title={dict.home?.space?.title}
+    >
       <Markdown className="text-center mb-6">
-        {dict.home.space.content}
+        {dict.home?.space?.content}
       </Markdown>
 
       <ImageGallery images={[require("./assets/nave.png")]} />
     </ContentSection>
   );
 };
+
+export default HomePage;

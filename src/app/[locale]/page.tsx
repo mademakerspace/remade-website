@@ -1,4 +1,4 @@
-import { HomePage } from "@/pages/Home/Home";
+import HomePage from "@/pages/Home/Home";
 import { LOCALES } from "@/types/intl";
 
 export default function Page() {
