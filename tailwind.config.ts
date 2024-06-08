@@ -1,12 +1,25 @@
 import type { Config } from "tailwindcss";
 
+const palette = {
+  white: { DEFAULT: "#ffffff" },
+  deep: { DEFAULT: "#14161d", dark: "#0e1015" },
+  brand: { DEFAULT: "#e5735f" },
+  contrast: { DEFAULT: "#365bff", dark: "#4d6cf6", light: "#7e96ff" },
+  secondary: { DEFAULT: "#12141a" },
+  spacegray: { DEFAULT: "#22242b" },
+};
+
 const config: Config = {
-  content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
+  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
+    colors: { ...palette },
+    fontFamily: { body: ["Inria Sans", "sans-serif"] },
+    textColor: {
+      ...palette,
+      DEFAULT: palette.white.DEFAULT,
+      base: palette.white,
+    },
+    borderColor: { DEFAULT: palette.spacegray.DEFAULT },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

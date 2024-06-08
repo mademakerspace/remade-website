@@ -1,8 +1,9 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+import type { Metadata } from "next";
+import logo from "@/assets/logo.svg";
+import Image from "next/image";
+import { MainNav } from "@/layout/MainNav/MainNav";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +17,32 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+
+      <body>
+        <div className="max-w-[900px] mx-auto px-6">
+          <div className="flex justify-center my-10">
+            <Image src={logo} alt="ReMade logo" width={160} />
+          </div>
+
+          <MainNav />
+
+          {children}
+        </div>
+      </body>
     </html>
   );
 }
