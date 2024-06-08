@@ -10,7 +10,7 @@ import { LanguageSwitcher } from "./LanguageSwitcher";
 import { NavLink } from "./NavLink";
 
 export const MainNav: FunctionComponent = () => (
-  <nav className="bg-deep-dark px-6 text-sm flex gap-3 items-center rounded-xl mb-6 justify-between lg:justify-center lg:gap-10 font-normal">
+  <nav className="bg-deep-dark px-6 text-sm flex gap-3 items-center rounded-xl mb-6 justify-between lg:justify-center lg:gap-10 font-normal flex-wrap">
     <NavLink
       href="https://www.instagram.com/made_maker_bcn"
       icon={IconBrandInstagram}
