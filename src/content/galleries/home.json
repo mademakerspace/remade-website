@@ -15,10 +15,10 @@
     "title": "Home",
     "images": [
       {
-        "image": "public/uploads/galleries/space-01.jpg"
+        "image": "/uploads/galleries/nave.jpg"
       },
       {
-        "image": "public/uploads/galleries/space-01.jpg",
+        "image": "/uploads/galleries/space-01.jpg",
         "description": "Taller de madera"
       }
     ]
@@ -27,10 +27,10 @@
     "title": "Home",
     "images": [
       {
-        "image": "public/uploads/galleries/space-01.jpg"
+        "image": "/uploads/galleries/nave.jpg"
       },
       {
-        "image": "public/uploads/galleries/space-01.jpg",
+        "image": "/uploads/galleries/space-01.jpg",
         "description": "Taller de fusta"
       }
     ]
