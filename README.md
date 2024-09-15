@@ -12,6 +12,10 @@ cd remade-website
 npm install
 ```
 
+## Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b1dc29b7-723d-455c-a7ac-2604c3509704/deploy-status)](https://app.netlify.com/sites/remade-website/deploys)
+
 ## Development
 
 Run the development server:
