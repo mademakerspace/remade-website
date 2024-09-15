@@ -1,0 +1,41 @@
+i18n:
+  structure: multiple_files
+  locales: [en, es, ca]
+  default_locale: en
+
+backend:
+  name: github
+  repo: mademakerspace/remade-website
+
+media_folder: public/uploads
+
+collections:
+  - name: "content"
+    label: "Content"
+    create: false
+    delete: false
+    i18n: true
+    format: json
+    extension: json
+    folder: src/dictionaries
+    editor:
+      preview: false
+    fields:
+      - label: "Home"
+        name: "home"
+        widget: "object"
+        i18n: true
+        fields:
+          - label: "Space"
+            name: "space"
+            widget: "object"
+            i18n: true
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+                i18n: true
+              - label: "Content"
+                name: "content"
+                widget: "markdown"
+                i18n: true
