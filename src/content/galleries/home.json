@@ -6,7 +6,7 @@
         "image": "/uploads/galleries/nave.jpg"
       },
       {
-        "image": "public/uploads/galleries/space-01.jpg",
+        "image": "/uploads/galleries/space-01.jpg",
         "description": "Wood workshop"
       }
     ]
