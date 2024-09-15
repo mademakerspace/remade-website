@@ -3,7 +3,7 @@
     "title": "Home",
     "images": [
       {
-        "src": "public/uploads/galleries/nave.jpg"
+        "src": "../../public/uploads/galleries/nave.jpg"
       },
       {
         "src": "public/uploads/galleries/space-01.jpg",
