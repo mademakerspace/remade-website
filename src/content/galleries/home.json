@@ -7,7 +7,6 @@
       },
       {
         "src": "public/uploads/galleries/space-01.jpg",
-        "description:": "Wood workshop",
         "description": "Wood workshop"
       }
     ]
@@ -20,7 +19,7 @@
       },
       {
         "src": "public/uploads/galleries/space-01.jpg",
-        "description:": "Taller de madera"
+        "description": "Taller de madera"
       }
     ]
   },
@@ -32,7 +31,7 @@
       },
       {
         "src": "public/uploads/galleries/space-01.jpg",
-        "description:": "Taller de fusta"
+        "description": "Taller de fusta"
       }
     ]
   }
