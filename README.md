@@ -35,3 +35,9 @@ The static build should now be available at `./out`. It can be previewed by runn
 ```bash
 npm run server
 ```
+
+## CMS
+
+The website uses [Decap CMS](https://decapcms.org/) to allow members with push access to edit content through a user friendly UI.
+
+Navitgate to `/admin` to log onto the CMS.
