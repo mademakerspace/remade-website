@@ -1,9 +1,25 @@
 import clsx from "clsx";
-import Image, { StaticImageData } from "next/image";
-import { FunctionComponent, useEffect, useRef, useState } from "react";
+import { default as NextImage, ImageProps, StaticImageData } from "next/image";
+import {
+  FunctionComponent,
+  HTMLProps,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
+
+const Image: FunctionComponent<ImageProps | HTMLProps<HTMLImageElement>> = (
+  props,
+) => {
+  return typeof props.src === "string" || !props.src ? (
+    <img {...(props as HTMLProps<HTMLImageElement>)} />
+  ) : (
+    <NextImage {...(props as ImageProps)} />
+  );
+};
 
 export const ImageGallery: FunctionComponent<{
-  images: { image: StaticImageData; description?: string }[];
+  images: { image: StaticImageData | string; description?: string }[];
 }> = ({ images }) => {
   const [current, setCurrent] = useState(0);
   const shownImage = images[current % images.length];

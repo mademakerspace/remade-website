@@ -11,9 +11,13 @@ import { Markdown } from "@/components/Markdown/Markdown";
 import { ContentSection } from "@/components/ContentSection/ContentSection";
 import { ImageGallery } from "@/components/ImageGallery/ImageGallery";
 import { Button } from "@/components/Button/Button";
+import homeGallery from "@/content/galleries/home.json";
+import { useLocale } from "@/hooks/useLocale";
 
 const HomePage: FunctionComponent = () => {
   const dict = useDictionary();
+  const locale = useLocale();
+  const gallery = homeGallery[locale];
 
   return (
     <>
@@ -23,24 +27,7 @@ const HomePage: FunctionComponent = () => {
       >
         <Markdown className="mb-6">{dict.home?.space?.content}</Markdown>
 
-        <ImageGallery
-          images={[
-            { image: require("./assets/nave@2x.jpg") },
-            {
-              image: require("./assets/space-01@2x.jpg"),
-              description: dict.home?.space?.images?.woodWorkshop,
-            },
-            {
-              image: require("./assets/space-02@2x.jpg"),
-              description: dict.home?.space?.images?.woodWorkshop,
-            },
-            { image: require("./assets/space-03@2x.jpg"), description: "" },
-            {
-              image: require("./assets/space-04@2x.jpg"),
-              description: dict.home?.space?.images?.electronicsWorkshop,
-            },
-          ]}
-        />
+        <ImageGallery images={gallery.images} />
       </ContentSection>
 
       <ContentSection icon={IconHammer} title={dict.home?.getInvolved?.title}>

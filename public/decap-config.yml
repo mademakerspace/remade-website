@@ -1,11 +1,11 @@
+backend:
+  name: github
+  repo: mademakerspace/remade-website
+
 i18n:
   structure: multiple_files
   locales: [en, es, ca]
   default_locale: en
-
-backend:
-  name: github
-  repo: mademakerspace/remade-website
 
 media_folder: public/uploads
 
@@ -14,10 +14,10 @@ collections:
     label: "Content"
     create: false
     delete: false
-    i18n: true
     format: json
     extension: json
     folder: src/content/dictionaries
+    i18n: true
     editor:
       preview: false
     fields:
@@ -39,3 +39,33 @@ collections:
                 name: "content"
                 widget: "markdown"
                 i18n: true
+
+  - name: galleries
+    label: Galleries
+    create: true
+    delete: false
+    format: json
+    extension: json
+    folder: src/content/galleries
+    media_folder: "../../../public/uploads/galleries"
+    public_folder: /uploads/galleries
+    i18n:
+      structure: single_file
+      default_locale: en
+    fields:
+      - name: images
+        label: Images
+        widget: list
+        i18n: true
+        fields:
+          - label: Image
+            name: image
+            widget: image
+            i18n: true
+          - label: description
+            name: description
+            required: false
+            i18n: true
+            widget: string
+
+    # public_folder: ""
