@@ -32,6 +32,18 @@
       {
         "image": "/uploads/galleries/space-01.jpg",
         "description": "Taller de madera"
+      },
+      {
+        "image": "/uploads/galleries/space-02.jpg",
+        "description": "Taller de madera"
+      },
+      {
+        "image": "/uploads/galleries/space-03.jpg",
+        "description": ""
+      },
+      {
+        "image": "/uploads/galleries/space-04.jpg",
+        "description": "Taller de electronica"
       }
     ]
   },
@@ -44,6 +56,18 @@
       {
         "image": "/uploads/galleries/space-01.jpg",
         "description": "Taller de fusta"
+      },
+      {
+        "image": "/uploads/galleries/space-02.jpg",
+        "description": "Taller de fusta"
+      },
+      {
+        "image": "/uploads/galleries/space-03.jpg",
+        "description": ""
+      },
+      {
+        "image": "/uploads/galleries/space-04.jpg",
+        "description": "Taller d'electrònica"
       }
     ]
   }
