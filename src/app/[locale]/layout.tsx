@@ -4,6 +4,10 @@ import { MainNav } from "@/layout/MainNav/MainNav";
 import { PageContext } from "@/types/next";
 import { PropsWithChildren } from "react";
 import Image from "next/image";
+import imageLogo from "@/assets/logo.svg";
+import imageLogoInline from "@/assets/logo-inline.svg";
+import imageBackgroundTL from "@/assets/layout/bg-top-left.svg";
+import imageBackgroundBR from "@/assets/layout/bg-top-right.svg";
 
 const Layout = async ({
   children,
@@ -37,13 +41,13 @@ const Layout = async ({
         <IntlContextProvider dictionary={dictionary}>
           <div className="fixed inset-0 pointer-events-none">
             <Image
-              src={require("@/assets/layout/bg-top-left.svg")}
+              src={imageBackgroundTL}
               alt=""
               className="absolute top-0 left-0 max-lg:w-[150px]"
             />
 
             <Image
-              src={require("@/assets/layout/bg-top-right.svg")}
+              src={imageBackgroundBR}
               alt=""
               className="absolute top-0 right-0 max-lg:w-[150px]"
             />
@@ -52,13 +56,13 @@ const Layout = async ({
           <div className="max-w-[900px] mx-auto px-6 relative">
             <div className="flex justify-center my-10 max-md:mb-6 max-md:mt-7">
               <Image
-                src={require("@/assets/logo.svg")}
+                src={imageLogo}
                 alt="ReMade logo"
                 width={160}
                 className="max-md:hidden"
               />
               <Image
-                src={require("@/assets/logo-inline.svg")}
+                src={imageLogoInline}
                 alt="ReMade logo"
                 width={280}
                 className="md:hidden"

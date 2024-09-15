@@ -2,7 +2,12 @@
   "home": {
     "space": {
       "title": "The space",
-      "content": "Lorem _ipsum dolor_ sit amet, consectetur adipiscing elit. Vivamus nec hendrerit felis.\n\n\nAliquam quis tincidunt tortor, eu porttitor turpis.\nDonec vulputate feugiat arcu sit amet faucibus.\n\nQuisque consequat semper euismod. Fusce imperdiet erat eget metus pulvinar, non dignissim ipsum fringilla. Etiam sed eros ullamcorper, condimentum tellus ac, ullamcorper odio",
+      "content": [
+        "ReMade is a non-profit community makerspace where people gather to build, hack, craft, and have fun.",
+        "It is a safe haven for creation that celebrates both the collective and individual path towards learning, skill sharing and the cross-pollination of ideas; a place where people can comfortably create and experiment within a diverse community without judgement or prejudice; a space for daring to grow, create and experiment beyond your limits.",
+        "#### Currently accepting new members looking to join in our community",
+        "Memberships start at 50 euros per month, with options for private space, storage and coworking"
+      ],
       "images": {
         "woodWorkshop": "Wood workshop",
         "electronicsWorkshop": "Electronics workshop"
@@ -10,7 +15,7 @@
     },
     "getInvolved": {
       "title": "Get involved",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam leo, viverra eu turpis eget, efficitur imperdiet elit. In faucibus erat non maximus luctus. Maecenas ornare orci quis aliquet laoreet"
+      "content": "If you want to visit our space, talk to us or know more about our open days or upcoming events, join our Telegram group or get in touch via email or any of our social channels"
     }
   }
 }
