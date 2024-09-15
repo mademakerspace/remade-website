@@ -6,11 +6,17 @@ import { DEFAULT_LOCALE, Locale } from "@/types/intl";
 
 export const dictionaries = {
   en: () =>
-    import("@/dictionaries/index.en.json").then((module) => module.default),
+    import("@/content/dictionaries/index.en.json").then(
+      (module) => module.default,
+    ),
   es: () =>
-    import("@/dictionaries/index.es.json").then((module) => module.default),
+    import("@/content/dictionaries/index.es.json").then(
+      (module) => module.default,
+    ),
   ca: () =>
-    import("@/dictionaries/index.ca.json").then((module) => module.default),
+    import("@/content/dictionaries/index.ca.json").then(
+      (module) => module.default,
+    ),
 } as const;
 
 const getDictionary = async (locale: Locale) => dictionaries[locale]();

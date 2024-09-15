@@ -17,7 +17,7 @@ collections:
     i18n: true
     format: json
     extension: json
-    folder: src/dictionaries
+    folder: src/content/dictionaries
     editor:
       preview: false
     fields:
