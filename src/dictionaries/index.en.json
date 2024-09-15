@@ -1,10 +1,9 @@
 {
   "title": "Dictionary",
-
   "home": {
     "space": {
       "title": "The space",
-      "content": "ReMade is a non-profit community makerspace where people gather to build, hack, craft, and have fun.\n\nIt is a safe haven for creation that celebrates both the collective and individual path towards learning, skill sharing and the cross-pollination of ideas; a place where people can comfortably create and experiment within a diverse community without judgement or prejudice; a space for daring to grow, create and experiment beyond your limits.\n\n#### Currently accepting new members looking to join in our community\n\nMemberships start at 50 euros per month, with options for private space, storage and coworking",
+      "content": "ReMade is a non-profit community makerspace where people gather to build, hack, craft, and have fun.\n\nIt is a safe haven for creation that celebrates both the collective and individual path towards learning, skill sharing and the cross-pollination of ideas; a place where people can comfortably create and experiment within a diverse community without judgement or prejudice; a space for daring to grow, create and experiment beyond your limits.\n\n#### Currently accepting new members looking to join in our community\n\nMemberships start at 50 euros per month, with options for private space, storage and co-working",
       "images": {
         "woodWorkshop": "Wood workshop",
         "electronicsWorkshop": "Electronics workshop"
