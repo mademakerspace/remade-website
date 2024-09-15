@@ -15,6 +15,7 @@ export const MainNav: FunctionComponent = () => (
       <NavLink
         href="https://www.instagram.com/made_maker_bcn"
         icon={IconBrandInstagram}
+        title="Instagram"
         external
       >
         Instagram
@@ -23,6 +24,7 @@ export const MainNav: FunctionComponent = () => (
       <NavLink
         href="https://t.me/+ZfAwT8CPnr8wMmE0"
         icon={IconBrandTelegram}
+        title="Telegram"
         external
       >
         Telegram
@@ -30,6 +32,7 @@ export const MainNav: FunctionComponent = () => (
 
       <NavLink
         href="https://www.facebook.com/made.bcn"
+        title="Facebook"
         icon={IconBrandFacebook}
         external
       >
@@ -38,13 +41,19 @@ export const MainNav: FunctionComponent = () => (
 
       <NavLink
         href="https://maps.app.goo.gl/WoL1BoXyWfFDWF5XA"
+        title="Google Maps"
         icon={IconBrandGoogleMaps}
         external
       >
         Google Maps
       </NavLink>
 
-      <NavLink href="mailto:info@made-bcn.org" icon={IconMail} external>
+      <NavLink
+        href="mailto:info@made-bcn.org"
+        title="E-mail"
+        icon={IconMail}
+        external
+      >
         Email
       </NavLink>
 
