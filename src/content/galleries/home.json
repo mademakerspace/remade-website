@@ -1,7 +1,7 @@
 {
   "title": "Home",
   "images": [
-    "/public/uploads/nave-2x.jpg",
-    "/public/uploads/space-01-2x.jpg"
+    "public/uploads/galleries/nave.jpg",
+    "public/uploads/galleries/space-01.jpg"
   ]
 }
