@@ -8,6 +8,14 @@
       {
         "image": "/uploads/galleries/space-01.jpg",
         "description": "Wood workshop"
+      },
+      {
+        "image": "/uploads/galleries/space-03.jpg",
+        "description": ""
+      },
+      {
+        "image": "/uploads/galleries/space-04.jpg",
+        "description": "Electronics workshop"
       }
     ]
   },
