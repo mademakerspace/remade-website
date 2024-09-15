@@ -1,7 +1,12 @@
 {
   "name": "remade-website",
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Associació Made",
+    "email": "info@made-bcn.org",
+    "url": "https://www.made-bcn.org"
+  },
   "scripts": {
     "dev": "next dev",
     "check": "tsc --noEmit",

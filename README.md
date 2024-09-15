@@ -41,3 +41,7 @@ npm run server
 The website uses [Decap CMS](https://decapcms.org/) to allow members with push access to edit content through a user friendly UI.
 
 Navitgate to `/admin` to log onto the CMS.
+
+## License
+
+Copyright (c) 2024 Associació Made. - Released under the MIT license
