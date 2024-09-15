@@ -2,17 +2,22 @@
   "en": {
     "title": "Home",
     "images": [
-      { "src": "public/uploads/galleries/nave.jpg" },
+      {
+        "src": "public/uploads/galleries/nave.jpg"
+      },
       {
         "src": "public/uploads/galleries/space-01.jpg",
-        "description:": "Wood workshop"
+        "description:": "Wood workshop",
+        "description": "Wood workshop"
       }
     ]
   },
   "es": {
     "title": "Home",
     "images": [
-      { "src": "public/uploads/galleries/nave.jpg" },
+      {
+        "src": "public/uploads/galleries/nave.jpg"
+      },
       {
         "src": "public/uploads/galleries/space-01.jpg",
         "description:": "Taller de madera"
@@ -22,7 +27,9 @@
   "ca": {
     "title": "Home",
     "images": [
-      { "src": "public/uploads/galleries/nave.jpg" },
+      {
+        "src": "public/uploads/galleries/nave.jpg"
+      },
       {
         "src": "public/uploads/galleries/space-01.jpg",
         "description:": "Taller de fusta"
