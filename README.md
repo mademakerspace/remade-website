@@ -44,4 +44,4 @@ Navitgate to `/admin` to log onto the CMS.
 
 ## License
 
-Copyright (c) 2024 Associació Made. - Released under the MIT license
+Copyright (c) 2024 Associació Made. - Released under the [MIT license](./LICENSE)
