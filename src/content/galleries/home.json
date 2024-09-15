@@ -3,10 +3,10 @@
     "title": "Home",
     "images": [
       {
-        "src": "/uploads/galleries/nave.jpg"
+        "image": "/uploads/galleries/nave.jpg"
       },
       {
-        "src": "public/uploads/galleries/space-01.jpg",
+        "image": "public/uploads/galleries/space-01.jpg",
         "description": "Wood workshop"
       }
     ]
@@ -15,10 +15,10 @@
     "title": "Home",
     "images": [
       {
-        "src": "public/uploads/galleries/nave.jpg"
+        "image": "public/uploads/galleries/space-01.jpg"
       },
       {
-        "src": "public/uploads/galleries/space-01.jpg",
+        "image": "public/uploads/galleries/space-01.jpg",
         "description": "Taller de madera"
       }
     ]
@@ -27,10 +27,10 @@
     "title": "Home",
     "images": [
       {
-        "src": "public/uploads/galleries/nave.jpg"
+        "image": "public/uploads/galleries/space-01.jpg"
       },
       {
-        "src": "public/uploads/galleries/space-01.jpg",
+        "image": "public/uploads/galleries/space-01.jpg",
         "description": "Taller de fusta"
       }
     ]
