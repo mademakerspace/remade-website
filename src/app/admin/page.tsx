@@ -10,7 +10,10 @@ export default function AdminPage() {
       </head>
 
       <body>
-        <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js" />
+        <script
+          async
+          src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"
+        />
       </body>
     </html>
   );
