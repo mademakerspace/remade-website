@@ -3,11 +3,17 @@ import Link from "next/link";
 import { FunctionComponent, PropsWithChildren } from "react";
 
 export const NavLink: FunctionComponent<
-  PropsWithChildren<{ href: string; external?: boolean; icon?: Icon }>
-> = ({ href, external = false, children, icon: Icon }) => (
+  PropsWithChildren<{
+    href: string;
+    external?: boolean;
+    icon?: Icon;
+    title?: string;
+  }>
+> = ({ href, external = false, children, icon: Icon, title }) => (
   <Link
     href={href}
     className="flex items-center gap-2 text-body hover:text-contrast-light transition-colors py-3"
+    title={title}
     {...(external ? { rel: "noopener noreferrer", target: "_blank" } : {})}
   >
     {!!Icon && (
