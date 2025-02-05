@@ -59,7 +59,7 @@ export const MainNav: FunctionComponent = () => (
       </NavLink>
 
       <NavLink
-        href="wiki.made-bcn.org"
+        href="https://wiki.made-bcn.org"
         title="Wiki"
         icon={IconBrandWikipedia}
         external
