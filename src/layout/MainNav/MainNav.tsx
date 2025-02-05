@@ -3,6 +3,7 @@ import {
   IconBrandTelegram,
   IconBrandFacebook,
   IconBrandGoogleMaps,
+  IconBrandWikipedia,
   IconMail,
 } from "@tabler/icons-react";
 import { FunctionComponent } from "react";
@@ -52,6 +53,15 @@ export const MainNav: FunctionComponent = () => (
         href="mailto:info@made-bcn.org"
         title="E-mail"
         icon={IconMail}
+        external
+      >
+        Email
+      </NavLink>
+
+      <NavLink
+        href="wiki.made-bcn.org"
+        title="Wiki"
+        icon={IconBrandWikipedia}
         external
       >
         Email
