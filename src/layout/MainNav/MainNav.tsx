@@ -64,7 +64,7 @@ export const MainNav: FunctionComponent = () => (
         icon={IconBrandWikipedia}
         external
       >
-        Email
+        Wiki
       </NavLink>
 
       <LanguageSwitcher />
